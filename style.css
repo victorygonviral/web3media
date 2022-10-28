@@ -1,0 +1,71 @@
+.parenta,
+parentb {
+    margin: 20px;
+}
+button{
+    background-color: red;
+    color: white;   
+    border: 0px;
+}
+.childd{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.childdd{
+    color: yellow;
+}
+.classe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.classe,subimg{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.content{
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+}
+@media(min-width:1000px){
+    .parenta{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: 40px;
+    
+    }
+    .childc{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .childa{
+        width: 70%;
+    }
+    .childd{
+        padding: 40px;
+    }
+    .childaa img{
+        height: 300px;
+        /* border: 2px solid red; */
+    }
+    .childa,.childd{
+        /* border: 2px solid red; */
+        height: 600px;
+    }
+    .childa{
+        margin-top: 20px;
+    }
+    .parentb{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        align-items: center;
+    }
+}
